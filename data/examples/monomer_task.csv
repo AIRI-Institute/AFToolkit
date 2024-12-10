@@ -1,0 +1,4 @@
+pdb_id,chain,path,positions,mutations,mut_info
+1A0F,A,./data/examples/PDB/1A0F.pdb,A:11,A:S11A,S11A
+1A7V,A,./data/examples/PDB/1A7V.pdb,A:104,A:A104H,A104H
+1A7V,A,./data/examples/PDB/1A7V.pdb,A:66,A:A66H,A66H

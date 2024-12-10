@@ -1,0 +1,3 @@
+pdb_id,mutations,positions,mut_info,chains_for_protein,path,ddG
+1CSE,I:L38G,I:38,LI38G,I,./data/examples/PDB/1CSE.pdb,3.404592416569592
+1CSE,I:L38S,I:38,LI38S,I,./data/examples/PDB/1CSE.pdb,1.2022453601075995
