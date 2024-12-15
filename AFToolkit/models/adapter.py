@@ -176,15 +176,15 @@ class AdapterMultimer(AdapterMonomer):
             self.multi_aggregation,
         )
         if self.only_complex_features:
-            return np.concatenate(wt_feats_complex, mt_feats_complex)
+            return np.concatenate((wt_feats_complex, mt_feats_complex))
         else:
             wt_feats_mono, mt_feats_mono = protein_complex_task.protein.get_protein_embeddings(
             self.features_list, 
             self.protein_aggregation,
             self.multi_aggregation,
             )
-            return np.concatenate(wt_feats_mono, mt_feats_mono,
-            wt_feats_complex, mt_feats_complex)
+            return np.concatenate((wt_feats_mono, mt_feats_mono,
+            wt_feats_complex, mt_feats_complex))
 
 
 class AdapterMonomerPerResiduePredictor(AdapterMonomer):
